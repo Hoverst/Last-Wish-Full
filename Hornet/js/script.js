@@ -244,12 +244,12 @@ document.querySelector('.toggle-btn').addEventListener('click', function() {
    }
  });
 
-//  window.addEventListener("load", function () {
-//    setTimeout(() => {
-//        document.getElementById("loading-screen").style.display = "none";
-//        document.getElementById("wrapper").style.display = "block";
-//    }, 1000); 
-// });
+  window.addEventListener("load", function () {
+    setTimeout(() => {
+        document.getElementById("loading-screen").style.display = "none";
+        document.getElementById("wrapper").style.display = "block";
+    }, 1000); 
+ });
  
 
 document.querySelector('.toggle-btn').addEventListener('click', function () {
@@ -274,4 +274,5 @@ document.getElementById("toggleBtn").addEventListener("click", () => {
   document.querySelectorAll(".link").forEach(link => {
     link.href = newHref; 
   });
+
 });
